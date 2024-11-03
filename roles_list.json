@@ -1,0 +1,15 @@
+{
+  "servicesAccount": {
+    "private-gke-sa": {
+      "account_id": "gke-sa",
+      "display_name": "gke Service Account",
+      "roles": [
+        "roles/monitoring.metricWriter",
+        "roles/container.developer",
+        "roles/artifactregistry.reader",
+        "roles/logging.logWriter",
+        "roles/cloudtrace.agent"
+      ]
+    }
+  }
+}
